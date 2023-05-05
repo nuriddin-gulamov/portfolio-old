@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from "react-redux";
 
-function App() {
+import Header from "./components/UI/header/Header";
+import HomeScreen from "./components/screens/home/HomeScreen";
+
+function App({ ScreenComponent }) {
+  const mobileNavOpened = useSelector((state) => state.mobileNavOpened);
+
+  let screen = <HomeScreen />;
+
+  if (ScreenComponent) {
+    screen = ScreenComponent;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="min-h-screen h-full w-full bg-gray relative">
+      <div className="container">
+        <Header />
+        <div
+          className={`px-[20px] py-[75px] animate__animated ${
+            mobileNavOpened ? "hidden" : "block"
+          }`}
         >
-          Learn React
-        </a>
-      </header>
+          {screen}
+        </div>
+      </div>
     </div>
   );
 }
