@@ -1,5 +1,5 @@
-function Subtitle({ children }) {
-  return <h2 className="text-gray200">{children}</h2>;
+function Subtitle({ children, className }) {
+  return <h2 className={`text-gray200 ${className}`}>{children}</h2>;
 }
 
 export default Subtitle;

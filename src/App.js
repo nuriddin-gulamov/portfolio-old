@@ -1,7 +1,8 @@
 import { useSelector } from "react-redux";
 
 import Header from "./components/UI/header/Header";
-import HomeScreen from "./components/screens/home/HomeScreen";
+import HomeScreen from "./components/screens/HomeScreen";
+import Footer from "./components/UI/footer/Footer";
 
 function App({ ScreenComponent }) {
   const mobileNavOpened = useSelector((state) => state.mobileNavOpened);
@@ -13,16 +14,17 @@ function App({ ScreenComponent }) {
   }
 
   return (
-    <div className="min-h-screen h-full w-full bg-gray relative">
+    <div className="min-h-screen h-full w-full px-[20px] bg-gray relative">
       <div className="container">
         <Header />
         <div
-          className={`px-[20px] py-[75px] animate__animated ${
+          className={`pt-[50px] animate__animated ${
             mobileNavOpened ? "hidden" : "block"
           }`}
         >
           {screen}
         </div>
+        <Footer />
       </div>
     </div>
   );

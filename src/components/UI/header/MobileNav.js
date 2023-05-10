@@ -6,7 +6,7 @@ import { navLinks } from "../../../data/data";
 function MobileNav({ mobileNavOpened }) {
   return (
     <div
-      className={`flex flex-col justify-center items-center h-full md:hidden animate__animated ${
+      className={`flex flex-col justify-center items-center h-[80vh] md:hidden animate__animated ${
         mobileNavOpened ? "flex" : "hidden"
       }`}
     >
