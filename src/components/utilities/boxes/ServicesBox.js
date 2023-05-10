@@ -4,7 +4,7 @@ import Subtitle from "../Subtitle";
 import CircledButton from "../buttons/CircledButton";
 import { services } from "../../../data/data";
 
-function ServicesBox({}) {
+function ServicesBox() {
   return (
     <Link to="/works" className="group col-span-2 max-lg:col-span-1">
       <div className="h-[300px] max-lg:h-full max-xl:h-[250px] max-md:h-[300px] bg-white rounded-3xl p-box relative flex flex-col justify-between">
