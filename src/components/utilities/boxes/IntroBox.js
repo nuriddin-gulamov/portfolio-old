@@ -11,7 +11,7 @@ function IntroBox() {
         <img
           src={nuriddin}
           alt="Nuriddin"
-          className="h-full max-sm:w-[50%] object-contain rounded-tl-3xl rounded-br-3xl"
+          className="h-full max-sm:w-half object-contain rounded-tl-3xl rounded-br-3xl"
         />
         <div className="ml-35 max-xl:ml-20 max-[580px]:ml-0 max-[580px]:mt-35 max-[580px]:self-start">
           <Subtitle>A REACT DEVELOPER</Subtitle>

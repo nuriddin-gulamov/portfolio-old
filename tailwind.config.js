@@ -12,9 +12,7 @@ module.exports = {
         black: "#0f0f0f",
         primary: "#3d5ce3",
       },
-      container: {
-        center: true,
-      },
+      container: { center: true },
       padding: {
         box: "20px",
         20: "20px",
@@ -26,9 +24,7 @@ module.exports = {
         35: "35px",
         50: "50px",
       },
-      width: {
-        half: "50%",
-      },
+      width: { half: "50%" },
       height: {
         300: "300px",
         250: "250px",
