@@ -12,7 +12,7 @@ function MobileNav({ mobileNavOpened }) {
     >
       <ul className="flex flex-col items-center">
         {navLinks.map((link, i) => (
-          <li className={i !== 0 ? "mt-[20px]" : null} key={i}>
+          <li className={i !== 0 ? "mt-20" : null} key={i}>
             <NavLink
               to={link.to}
               className={({ isActive }) =>
@@ -26,7 +26,7 @@ function MobileNav({ mobileNavOpened }) {
           </li>
         ))}
       </ul>
-      <DarkButton className="mt-[20px]">Get in touch</DarkButton>
+      <DarkButton className="mt-20">Get in touch</DarkButton>
     </div>
   );
 }

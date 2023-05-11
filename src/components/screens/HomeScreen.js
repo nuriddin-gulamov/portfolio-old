@@ -22,7 +22,7 @@ function HomeScreen() {
           ))}
         </div>
       </div>
-      <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 mt-[20px] h-full">
+      <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 mt-20 h-full">
         <InfoBox
           image={ieltsBox.img}
           subtitle={ieltsBox.subtitle}

@@ -14,11 +14,11 @@ function App({ ScreenComponent }) {
   }
 
   return (
-    <div className="min-h-screen h-full w-full px-[20px] bg-gray relative">
+    <div className="min-h-screen h-full w-full px-20 bg-gray relative">
       <div className="container">
         <Header />
         <div
-          className={`pt-[50px] animate__animated ${
+          className={`pt-50 animate__animated ${
             mobileNavOpened ? "hidden" : "block"
           }`}
         >

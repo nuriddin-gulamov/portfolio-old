@@ -7,7 +7,7 @@ function Footer() {
   const mobileNavOpened = useSelector((state) => state.mobileNavOpened);
   return (
     <footer
-      className={`py-[20px] ${mobileNavOpened ? "hidden" : "block"}`}
+      className={`py-20 ${mobileNavOpened ? "hidden" : "block"}`}
     >
       <FooterTop />
       <FooterMain />

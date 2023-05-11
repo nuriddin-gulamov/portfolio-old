@@ -8,7 +8,7 @@ import CircledButton from "../../utilities/buttons/CircledButton";
 function FooterTop() {
   return (
     <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-5">
-      <div className="min-h-[220px] max-[580px]:min-h-[350px] bg-white rounded-3xl p-box flex max-[580px]:flex-col justify-center items-center">
+      <div className="min-h-[220px] max-[580px]:min-h-[350px] bg-white rounded-3xl p-box flex max-[580px]:flex-col justify-center items-center shadow-md">
         {stats.map((stat, i) => (
           <StatsBox
             numbers={stat.numbers}
@@ -18,8 +18,8 @@ function FooterTop() {
           />
         ))}
       </div>
-      <Link to="contact" className="group">
-        <div className="h-[220px] bg-white rounded-3xl relative p-box flex flex-col justify-center">
+      <Link to="/contact" className="group" reloadDocument>
+        <div className="h-[220px] bg-white rounded-3xl relative p-box flex flex-col justify-center shadow-md">
           <MdWork className="text-[35px]" />
           <h1 className="mt-[15px] text-[50px] leading-none">
             Let's work <br />

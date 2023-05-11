@@ -6,14 +6,14 @@ import nuriddin from "../../../assets/me.png";
 
 function IntroBox() {
   return (
-    <Link to="/about" className="group">
-      <div className="h-[300px] max-xl:h-[250px] max-lg:h-[300px] max-sm:h-full bg-white rounded-3xl p-box max-[580px]:pb-[50px] flex max-[580px]:flex-col items-center relative">
+    <Link to="/about" className="group" reloadDocument>
+      <div className="h-300 max-xl:h-250 max-lg:h-300 max-sm:h-full bg-white rounded-3xl p-box max-[580px]:pb-50 flex max-[580px]:flex-col items-center relative shadow-md">
         <img
           src={nuriddin}
           alt="Nuriddin"
           className="h-full max-sm:w-[50%] object-contain rounded-tl-3xl rounded-br-3xl"
         />
-        <div className="ml-[35px] max-xl:ml-[20px] max-[580px]:ml-0 max-[580px]:mt-[35px] max-[580px]:self-start">
+        <div className="ml-35 max-xl:ml-20 max-[580px]:ml-0 max-[580px]:mt-35 max-[580px]:self-start">
           <Subtitle>A REACT DEVELOPER</Subtitle>
           <h1 className="text-[35px] leading-10 max-xl:leading-9 text-black">
             Nuriddin

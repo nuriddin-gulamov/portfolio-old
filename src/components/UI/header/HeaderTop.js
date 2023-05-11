@@ -11,7 +11,7 @@ function HeaderTop({ mobileNavOpened, dispatcher }) {
   }
 
   return (
-    <header className="py-5 px-[20px] flex justify-between items-center">
+    <header className="py-5 px-20 flex justify-between items-center">
       <Logo />
       <ul className="flex items-center max-md:hidden">
         {navLinks.map((link, i) => (

@@ -11,10 +11,10 @@ import ielts from "../assets/ielts.png";
 
 // Header Data
 export const navLinks = [
-  { to: "/", title: "Home" },
-  { to: "/about", title: "About" },
-  { to: "/works", title: "Works" },
-  { to: "/contact", title: "Contact" },
+  { to: '/', title: "Home" },
+  { to: '/about', title: "About" },
+  { to: '/works', title: "Works" },
+  { to: '/contact', title: "Contact" },
 ];
 
 // Footer Data
@@ -35,9 +35,24 @@ export const stats = [
 
 // Home Screen Data
 export const infoBoxes = [
-  { img: about, subtitle: "PERSONAL INFO", title: "About Me", to: "/about" },
-  { img: portfolio, subtitle: "MY WORKS", title: "Portfolio", to: "/works" },
-  { img: ielts, subtitle: "SHOWTIME", title: "My IELTS", to: "/ielts" },
+  {
+    img: about,
+    subtitle: "PERSONAL INFO",
+    title: "About Me",
+    to: '/about',
+  },
+  {
+    img: portfolio,
+    subtitle: "MY WORKS",
+    title: "Portfolio",
+    to: '/works',
+  },
+  {
+    img: ielts,
+    subtitle: "SHOWTIME",
+    title: "My IELTS",
+    to: "https://drive.google.com/file/d/1ynF6cUSJ1P_EJfKT0ECZ0ziQJFraA4Yd/view",
+  },
 ];
 
 export const services = [

@@ -5,12 +5,12 @@ import CircledButton from "../buttons/CircledButton";
 
 function InfoBox({ image, subtitle, title, link }) {
   return (
-    <Link to={link} className="group">
-      <div className="h-[300px] max-xl:h-[250px] max-lg:h-[300px] bg-white rounded-3xl relative p-box flex flex-col justify-between">
+    <Link to={link} className="group" reloadDocument>
+      <div className="h-300 max-xl:h-250 max-lg:h-300 bg-white rounded-3xl relative p-box flex flex-col justify-between shadow-md">
         <img
           src={image}
           alt=""
-          className="w-full max-w-[300px] h-full object-contain self-center"
+          className="w-full max-w-300 h-full object-contain self-center"
         />
         <div className="flex items-center justify-between mt-[10px]">
           <div>
