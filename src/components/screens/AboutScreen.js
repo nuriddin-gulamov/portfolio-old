@@ -6,14 +6,14 @@ function AboutScreen() {
   return (
     <>
       <div className="grid grid-cols-3 max-lg:grid-cols-2 max-lg:flex max-lg:flex-col gap-5">
-        <div className="min-h-300 rounded-3xl bg-white p-box flex justify-center items-center max-lg:self-center shadow-md">
+        <div className="min-h-[250px] rounded-3xl bg-white p-box flex justify-center items-center max-lg:self-center shadow-md">
           <img
             src={nuriddin}
             alt=""
-            className="rounded-tl-3xl rounded-br-3xl max-h-300"
+            className="rounded-tl-3xl rounded-br-3xl max-h-[300px]"
           />
         </div>
-        <div className="min-h-300 bg-white rounded-3xl p-box col-span-2 flex flex-col justify-center shadow-md">
+        <div className="min-h-[300px] bg-white rounded-3xl p-box col-span-2 flex flex-col justify-center shadow-md">
           <h1 className="text-center uppercase text-[45px] leading-tight max-sm:text-left max-sm:text-[35px]">
             All About Myself!
           </h1>
@@ -34,7 +34,7 @@ function AboutScreen() {
         </div>
       </div>
       <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-5 mt-20">
-        <div className="min-h-300 bg-white rounded-3xl p-[30px] shadow-md">
+        <div className="min-h-[300px] bg-white rounded-3xl p-[30px] shadow-md">
           <h3 className="mb-20 uppercase text-[18px] font-semibold">
             More About Me
           </h3>
@@ -42,7 +42,7 @@ function AboutScreen() {
             <InfoCard index={i} data={data} />
           ))}
         </div>
-        <div className="min-h-300 bg-white rounded-3xl p-[30px] shadow-md">
+        <div className="min-h-[300px] bg-white rounded-3xl p-[30px] shadow-md">
           <h3 className="mb-20 uppercase text-[18px] font-semibold">
             What I have been busy with?
           </h3>

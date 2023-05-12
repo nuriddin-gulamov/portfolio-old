@@ -9,12 +9,19 @@ import about from "../assets/about.png";
 import portfolio from "../assets/portfolio.png";
 import ielts from "../assets/ielts.png";
 
+import project1 from "../assets/projects/1.png";
+import project2 from "../assets/projects/2.png";
+import project3 from "../assets/projects/3.png";
+import project4 from "../assets/projects/4.png";
+import project5 from "../assets/projects/5.png";
+import project6 from "../assets/projects/6.png";
+
 // Header Data
 export const navLinks = [
-  { to: '/', title: "Home" },
-  { to: '/about', title: "About" },
-  { to: '/works', title: "Works" },
-  { to: '/contact', title: "Contact" },
+  { to: "/", title: "Home" },
+  { to: "/about", title: "About" },
+  { to: "/works", title: "Works" },
+  { to: "/contact", title: "Contact" },
 ];
 
 // Footer Data
@@ -39,13 +46,13 @@ export const infoBoxes = [
     img: about,
     subtitle: "PERSONAL INFO",
     title: "About Me",
-    to: '/about',
+    to: "/about",
   },
   {
     img: portfolio,
     subtitle: "MY WORKS",
     title: "Portfolio",
-    to: '/works',
+    to: "/works",
   },
   {
     img: ielts,
@@ -130,5 +137,45 @@ export const history = [
     title: "I took the IELTS test.",
     description:
       "I took this time to practice my IELTS skills and got 7.0 Band Score.",
+  },
+];
+
+// Works Screen Data
+export const projects = [
+  {
+    image: project1,
+    title: "Facebook Clone",
+    description: "Facebook Clone using ReactJS",
+    livePreview: "https://facebook-clone-gn.netlify.app",
+  },
+  {
+    image: project2,
+    title: "Mapty",
+    description: "Mapty - Map your workouts",
+    livePreview: "https://nuriddin-gulamov.github.io/mapty/",
+  },
+  {
+    image: project3,
+    title: "Calculator",
+    description: "Calculator build only on JavaScript",
+    livePreview: "https://nuriddin-gulamov.github.io/calculator/",
+  },
+  {
+    image: project4,
+    title: "Rounded",
+    description: "This was a task project",
+    livePreview: "https://rounded-task.netlify.app",
+  },
+  {
+    image: project5,
+    title: "Weather App",
+    description: "Weather Project on ReactJS",
+    livePreview: "https://weather-gn.netlify.app",
+  },
+  {
+    image: project6,
+    title: "Analog Clock",
+    description: "Minor Project - Analog Clock",
+    livePreview: "https://nuriddin-gulamov.github.io/analogclock/",
   },
 ];

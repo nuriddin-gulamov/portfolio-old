@@ -24,10 +24,8 @@ module.exports = {
         35: "35px",
         50: "50px",
       },
-      width: { half: "50%" },
-      height: {
-        300: "300px",
-        250: "250px",
+      width: {
+        half: "50%",
       },
     },
   },
