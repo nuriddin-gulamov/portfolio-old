@@ -1,9 +1,10 @@
 import { FaReact, FaLocationArrow, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiRedux, SiJavascript } from "react-icons/si";
-import { BsLinkedin, BsYoutube } from "react-icons/bs";
+import { BsLinkedin, BsYoutube, BsInstagram } from "react-icons/bs";
 import { RiFilePaper2Fill, RiComputerFill } from "react-icons/ri";
 import { BiWorld } from "react-icons/bi";
 import { AiOutlineTeam } from "react-icons/ai";
+import { HiMail } from "react-icons/hi";
 
 import about from "../assets/about.png";
 import portfolio from "../assets/portfolio.png";
@@ -177,5 +178,32 @@ export const projects = [
     title: "Analog Clock",
     description: "Minor Project - Analog Clock",
     livePreview: "https://nuriddin-gulamov.github.io/analogclock/",
+  },
+];
+
+// Contact Screen Data
+export const contactInfo = [
+  {
+    icon: HiMail,
+    subtitle: "Mail me",
+    title: "gm.nuriddin2020@gmail.com",
+  },
+  {
+    icon: BsLinkedin,
+    subtitle: "LinkedIn",
+    title: "Nuriddin Gulamov",
+    link: "https://www.linkedin.com/in/nuriddin-gulamov-4a4762204/",
+  },
+  {
+    icon: BsYoutube,
+    subtitle: "Youtube Channel",
+    title: "@GulamovNuriddin",
+    link: "https://www.youtube.com/@GulamovNuriddin",
+  },
+  {
+    icon: BsInstagram,
+    subtitle: "Instagram",
+    title: "@gulamov.nuriddin",
+    link: "https://www.instagram.com/gulamov.nuriddin/",
   },
 ];

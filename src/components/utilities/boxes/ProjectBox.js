@@ -14,7 +14,7 @@ function ProjectBox({ image, subtitle, title, link }) {
         />
         <div className="flex items-center justify-between mt-[10px]">
           <div>
-            <Subtitle className='leading-tight'>{subtitle}</Subtitle>
+            <Subtitle className="leading-tight">{subtitle}</Subtitle>
             <h1 className="text-[20px]">{title}</h1>
           </div>
         </div>
