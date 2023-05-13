@@ -18,7 +18,7 @@ function FooterTop() {
           />
         ))}
       </div>
-      <Link to="/contact" className="group" reloadDocument>
+      <Link to="/contact" className="group">
         <div className="h-[220px] bg-white rounded-3xl relative p-box flex flex-col justify-center shadow-md">
           <MdWork className="text-[35px]" />
           <h1 className="mt-[15px] text-[50px] leading-none">
