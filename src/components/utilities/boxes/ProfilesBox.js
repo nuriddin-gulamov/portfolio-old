@@ -6,7 +6,7 @@ import { profiles } from "../../../data/data";
 
 function ProfilesBox() {
   return (
-    <Link to='/contact' className="group" reloadDocument>
+    <Link to='/contact' className="group">
       <div className="h-[300px] max-xl:h-[250px] max-lg:h-[300px] bg-white rounded-3xl p-box flex flex-col justify-between relative shadow-md">
         <div className="flex justify-center items-center bg-gray rounded-3xl h-[65%] px-[5px] mb-[15px]">
           {profiles.map((profile, i) => {

@@ -5,7 +5,7 @@ import CircledButton from "../buttons/CircledButton";
 
 function ProjectBox({ image, subtitle, title, link }) {
   return (
-    <Link to={link} className="group" reloadDocument>
+    <Link to={link} className="group">
       <div className="h-[300px] max-xl:h-[250px] max-lg:h-[300px] bg-white rounded-3xl relative p-box flex flex-col justify-between shadow-md">
         <img
           src={image}

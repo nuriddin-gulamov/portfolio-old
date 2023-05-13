@@ -6,7 +6,7 @@ import { services } from "../../../data/data";
 
 function ServicesBox() {
   return (
-    <Link to="/works" className="group col-span-2 max-lg:col-span-1" reloadDocument>
+    <Link to="/works" className="group col-span-2 max-lg:col-span-1">
       <div className="h-[300px] max-lg:h-full max-xl:h-[250px] max-md:h-[300px] bg-white rounded-3xl p-box relative flex flex-col justify-between shadow-md">
         <div className="flex items-center justify-center h-[80%]">
           {services.map((service) => {

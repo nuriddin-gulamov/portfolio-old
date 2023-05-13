@@ -6,7 +6,7 @@ import nuriddin from "../../../assets/me.png";
 
 function IntroBox() {
   return (
-    <Link to="/about" className="group" reloadDocument>
+    <Link to="/about" className="group">
       <div className="h-[300px] max-xl:h-[250px] max-lg:h-[300px] max-sm:h-full bg-white rounded-3xl p-box max-[580px]:pb-50 flex max-[580px]:flex-col items-center relative shadow-md">
         <img
           src={nuriddin}
