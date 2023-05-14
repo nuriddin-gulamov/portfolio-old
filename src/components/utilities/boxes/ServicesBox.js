@@ -14,8 +14,8 @@ function ServicesBox() {
 
             return (
               <div className="w-full group/service hover:scale-150 transition duration-500 cursor-pointer flex flex-col items-center justify-center">
-                <Icon className="text-[50px]" />
-                <h3 className="text-white text-center text-[12px] group-hover/service:text-black transition duration-500">
+                <Icon className="text-[50px] max-sm:text-[35px]" />
+                <h3 className="leading-tight text-center text-[12px] hidden group-hover/service:block transition duration-500">
                   {service.title}
                 </h3>
               </div>
